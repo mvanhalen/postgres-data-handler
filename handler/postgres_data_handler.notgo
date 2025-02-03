@@ -6,6 +6,7 @@ import (
 	"database/sql"
 	"encoding/hex"
 	"fmt"
+
 	"github.com/deso-protocol/core/lib"
 	"github.com/deso-protocol/postgres-data-handler/entries"
 	"github.com/deso-protocol/postgres-data-handler/migrations/post_sync_migrations"
