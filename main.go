@@ -86,7 +86,7 @@ func main() {
 
 	// Create the WebHandler with your desired transport settings and minimum block height.
 	// For HTTP transport:
-	webHandler := handler.NewWebHandler("https://your-api-endpoint.example.com/data", false, "", minBlockHeight)
+	webHandler := handler.NewWebHandler("https://nftz-deso-front-martijnvanhalen-nftzzone.vercel.app/api/webhandler", false, "", minBlockHeight)
 	// For WebSocket, set useWebSocket to true and provide the WS URL:
 	// webHandler := handler.NewWebHandler("", true, "wss://your-ws-endpoint.example.com/stream", minBlockHeight)
 

@@ -1,4 +1,4 @@
-module github.com/deso-protocol/postgres-data-handler
+module github.com/mvanhalen/web-data-handler
 
 go 1.23.0
 
